@@ -6,12 +6,43 @@ package com.myspace;
 
 public class Person implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Person() {
-    }
+	private java.lang.String name;
+	private int age;
+	private java.lang.String address;
 
+	public Person() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return this.age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public java.lang.String getAddress() {
+		return this.address;
+	}
+
+	public void setAddress(java.lang.String address) {
+		this.address = address;
+	}
+
+	public Person(java.lang.String name, int age, java.lang.String address) {
+		this.name = name;
+		this.age = age;
+		this.address = address;
+	}
 
 }
