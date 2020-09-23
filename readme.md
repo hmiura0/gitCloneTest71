@@ -1,4 +1,3 @@
 Repository Init Content
 =======================
-
-Your project description here.
+This is Dev2 branch.
