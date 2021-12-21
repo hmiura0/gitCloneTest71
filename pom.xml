@@ -9,12 +9,12 @@
   <name>gitCloneTest</name>
   <description></description>
   <dependencies>
-    <dependency>
+    <!--dependency>
       <groupId>com.thoughtworks.xstream</groupId>
       <artifactId>xstream</artifactId>
       <version>1.4.11</version>
       <scope>test</scope>
-    </dependency>
+    </dependency-->
     <dependency>
       <groupId>org.kie</groupId>
       <artifactId>kie-internal</artifactId>
